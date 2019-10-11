@@ -13,6 +13,8 @@
 		FF367E6A2350EBA7006C2685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF367E692350EBA7006C2685 /* Assets.xcassets */; };
 		FF367E6D2350EBA7006C2685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF367E6B2350EBA7006C2685 /* LaunchScreen.storyboard */; };
 		FF367E752350EC49006C2685 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF367E742350EC49006C2685 /* UIView.swift */; };
+		FF367E772350ED12006C2685 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF367E762350ED12006C2685 /* ExampleView.swift */; };
+		FF367E792350ED28006C2685 /* ExampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF367E782350ED28006C2685 /* ExampleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FF367E6C2350EBA7006C2685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF367E6E2350EBA7006C2685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF367E742350EC49006C2685 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		FF367E762350ED12006C2685 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		FF367E782350ED28006C2685 /* ExampleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				FF367E602350EBA6006C2685 /* AppDelegate.swift */,
 				FF367E642350EBA6006C2685 /* ViewController.swift */,
+				FF367E762350ED12006C2685 /* ExampleView.swift */,
+				FF367E782350ED28006C2685 /* ExampleView.xib */,
 				FF367E742350EC49006C2685 /* UIView.swift */,
 				FF367E662350EBA6006C2685 /* Main.storyboard */,
 				FF367E692350EBA7006C2685 /* Assets.xcassets */,
@@ -128,6 +134,7 @@
 				FF367E6D2350EBA7006C2685 /* LaunchScreen.storyboard in Resources */,
 				FF367E6A2350EBA7006C2685 /* Assets.xcassets in Resources */,
 				FF367E682350EBA6006C2685 /* Main.storyboard in Resources */,
+				FF367E792350ED28006C2685 /* ExampleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				FF367E652350EBA6006C2685 /* ViewController.swift in Sources */,
 				FF367E752350EC49006C2685 /* UIView.swift in Sources */,
 				FF367E612350EBA6006C2685 /* AppDelegate.swift in Sources */,
+				FF367E772350ED12006C2685 /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
